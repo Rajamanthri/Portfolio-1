@@ -1,229 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Malshika Rajamnthri</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div id="main">
-        <div id="home">
-            <div id="div1"><b>Malshika Rajamanthri</b> </div>
+      <div id="home">
+        <div id="div1"><b>Malshika Rajamanthri</b></div>
 
-            <div class="nav1" id="myTopnav">
-
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#workEx" class="nav-link">Work Experience</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contacts</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()" id="menu-icon">
-                    <i class="fa fa-bars"></i>
-                </a>
-
-            </div>
-
-
-
-            <div id="div2">
-                <div id="content">
-                    <p id="para1">Hey there! I go by <br><b>Malshika Rajamanthri</b><br> and I'm diving
-                        into the world of
-                        software as an enthusiastic Engineering Undergrad,
-                        turning ideas into digital reality.</p><br>
-                    <a href="cv.pdf" target="_blank">
-                        <p id="para2"><button id="button1">Download CV</button></p>
-                    </a>
-                </div><br>
-
-                <div id="myPic">
-                    <img src="pp3.jpg" alt="p1" id="p1">
-                </div>
-            </div>
+        <div class="nav1" id="myTopnav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#workEx" class="nav-link">Work Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contacts</a>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="myFunction()"
+            id="menu-icon"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
 
-        <div id="about">
-            <p id="para3">About Me</p><br>
-            <div id="div4">
-                <img src="aboutme.png" alt="p3" id="p3">
+        <div id="div2">
+          <div id="content">
+            <p id="para1">
+              Hey there! I go by <br /><b>Malshika Rajamanthri</b><br />
+              and I'm diving into the world of software as an enthusiastic
+              Engineering Undergrad, turning ideas into digital reality.
+            </p>
+            <br />
+            <a href="cv.pdf" target="_blank">
+              <p id="para2"><button id="button1">Download CV</button></p>
+            </a>
+          </div>
+          <br />
 
-
-            </div>
+          <div id="myPic">
+            <img src="pp3.jpg" alt="p1" id="p1" />
+          </div>
         </div>
+      </div>
 
-        <div id="workEx">
-            <p id="para4">Work Experience</p><br>
+      <div id="about">
+        <p id="para3">About Me</p>
+        <br />
+        <div id="div4">
+          <img src="aboutme.png" alt="p3" id="p3" />
+        </div>
+      </div>
+
+      <div id="workEx">
+        <p id="para4">Work Experience</p>
+        <br />
+        <div>
+          <button id="b1">Academic Qualification</button>
+          <div class="ulist1" id="academic">
+            <span class="sb1">BSC.(Hons) in Software Engineering</span><br />
+            University of Kelaniya<br />2022-present<br />Current GPA - 3.50
+            <br /><br />
+
+            <span class="sb1">Diploma In English Language</span><br />
+            British Way English Academy(2022) <br /><br />
+
+            <span class="sb1">St. Anthony's Girls' College, Kandy</span><br />
+            <b>G.C.E. A/L-Physical Stream</b> <br />
+            Combined Maths - A <br />
+            Physics - B <br />
+            Chemistry - B <br /><br />
+            <b>G.C.E. O/L </b><br />
+            7A's and 2B's <br />
+          </div>
+        </div>
+        <section class="poll">
+          <br /><button id="b2">Skills</button>
+          <div class="ulist1" id="skills">
             <div>
-                <button id="b1">Academic Qualification</button>
-                <div class="ulist1" id="academic">
+              <span class="sb1">Technical Skills</span><br />
 
-                    <span class="sb1">BSC.(Hons) in Software Engineering</span><br>
-                    University of Kelaniya<br>2022-present<br>Current GPA - 3.50 <br><br>
+              <div class="language">
+                <label for="html">HTML : </label>
+                <input
+                  type="range"
+                  id="html"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="90"
+                  class="range"
+                />
+              </div>
+              <br />
 
-                    <span class="sb1">Diploma In English Language</span><br>
-                    British Way English Academy(2022) <br><br>
+              <div class="language">
+                <label for="css"> CSS : </label>
+                <input
+                  type="range"
+                  id="css"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="90"
+                  class="range"
+                />
+              </div>
+              <br />
 
-                    <span class="sb1">St. Anthony's Girls' College, Kandy</span><br>
-                    <b>G.C.E. A/L-Physical Stream</b> <br>
-                    Combined Maths - A <br>
-                    Physics - B <br>
-                    Chemistry - B <br><br>
-                    <b>G.C.E. O/L </b><br>
-                    7A's and 2B's <br>
+              <div class="language">
+                <label for="js"> JavaScript : </label>
+                <input
+                  type="range"
+                  id="js"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="70"
+                />
+              </div>
+              <br />
 
-                </div>
+              <div class="language">
+                <label for="mysql"> MySQL : </label>
+                <input
+                  type="range"
+                  id="mysql"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="80"
+                />
+              </div>
+              <br />
+
+              <div class="language">
+                <label for="java"> Java : </label>
+                <input
+                  type="range"
+                  id="java"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="70"
+                />
+              </div>
+              <br />
+
+              <div class="language">
+                <label for="vcs"> VCS(Git) : </label>
+                <input
+                  type="range"
+                  id="vcs"
+                  min="0"
+                  max="100"
+                  step="10"
+                  value="60"
+                />
+              </div>
             </div>
-            <section class="poll">
-                <br><button id="b2">Skills</button>
-                <div class="ulist1" id="skills">
-                    <div>
-
-                        <span class="sb1">Technical Skills</span><br>
-
-                        <div class="language">
-                            <label for="html">HTML : </label>
-                            <input type="range" id="html" min="0" max="100" step="10" value="90" class="range">
-
-                        </div><br>
-
-                        <div class="language">
-                            <label for="css"> CSS : </label>
-                            <input type="range" id="css" min="0" max="100" step="10" value="90" class="range">
-
-                        </div><br>
-
-                        <div class="language">
-                            <label for="js"> JavaScript : </label>
-                            <input type="range" id="js" min="0" max="100" step="10" value="70">
-
-                        </div><br>
-
-                        <div class="language">
-                            <label for="mysql"> MySQL : </label>
-                            <input type="range" id="mysql" min="0" max="100" step="10" value="80">
-
-                        </div><br>
-
-                        <div class="language">
-                            <label for="java"> Java : </label>
-                            <input type="range" id="java" min="0" max="100" step="10" value="70">
-
-                        </div><br>
-
-                        <div class="language">
-                            <label for="vcs"> VCS(Git) : </label>
-                            <input type="range" id="vcs" min="0" max="100" step="10" value="60">
-
-                        </div>
-                    </div><br>
-
-                    <div>
-                        <span class="sb1">Soft Skills</span><br>
-                        <p>Communication Skills</p>
-                        <p>Team Work</p>
-                        <p>Leadership</p>
-                        <p>Smartworking and Dedication</p>
-                        <p>Time Management</p>
-                    </div>
-
-                </div>
-
-            </section>
+            <br />
 
             <div>
-                <br><button id="b3">Curriculum Activities</button>
-
-                <div class="ulist1" id="curriculum">
-                    <span class="sb1">Committee Member of Game of Code</span><br>
-                    University of Kelaniya <br>
-                    2023 <br><br>
-
-                    <span class="sb1">Member of WIE</span><br>
-                    University of Kelaniya <br><br>
-
-                    <span class="sb1">Member of SESA</span><br>
-                    University of Kelaniya <br><br>
-
-                    <span class="sb1">IEEE Member</span><br>
-                    IEEE Sri Lanka Section <br>
-                </div>
+              <span class="sb1">Soft Skills</span><br />
+              <p>Communication Skills</p>
+              <p>Team Work</p>
+              <p>Leadership</p>
+              <p>Smartworking and Dedication</p>
+              <p>Time Management</p>
             </div>
-        </div>
-
-        <div id="projects">
-            <p id="para5">Projects</p>
-            <section id="project">
-
-                <div class="project1" id="projecta">
-                    <a href="https://github.com/Rajamanthri/To-Do-List" target="_blank">
-                        <img src="p4.png" alt="p4" width="250px" height="250px">
-                        <h2>To-Do List</h2>
-                        <p>simple to-do list is a basic web application
-                            crafted with HTML, CSS, and JavaScript. It
-                            provides a straightforward way to jot down and
-                            manage tasks or reminders. </p>
-                    </a>
-                </div>
-
-                <div class="project1" id="projectb">
-                    <a href="file:///D:/Projects/Project2/index.html" target="_blank">
-                        <img src="p5.png" alt="p5" width="250px" height="250px">
-                        <h2>Portfolio</h2>
-                        <p>Pure html css javascript languages has been used to
-                            create this portfolio website</p><br><br>
-                    </a>
-                </div>
-
-                <div class="project1" id="projectc">
-                    <a href="https://github.com/Rajamanthri/Click-Me" target="_blank">
-                        <img src="click.png" alt="p5" width="250px" height="250px">
-                        <h2>Calculate clicking speed</h2>
-                        <p> This engaging project challenges users to click on randomly
-                            generated shapes that appear on the screen. </p><br><br>
-                    </a>
-                </div>
-            </section>
-        </div>
-
-        <section class="contacts" id="contact">
-            <p id="para6">Contact Me</p>
-            <div class="icons">
-                <a href="mailto:mcrajamanthri@gmail.com">
-                    <i class="fas fa-envelope" id="bottom-icon"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BnnCiYb7nRPSYolicqGhMwA%3D%3D"
-                    target="_blank">
-                    <i class="fab fa-linkedin" id="bottom-icon"></i>
-                </a>
-
-                <a href="https://github.com/Rajamanthri" target="_blank">
-                    <i class="fab fa-github" id="bottom-icon"></i>
-                </a>
-
-                <a href="https://medium.com/@mcrajamanthri50" target="_blank">
-                    <i class="fab fa-medium" id="bottom-icon"></i>
-                </a>
-
-                <a href="https://www.facebook.com/profile.php?id=61550247781005&mibextid=ZbWKwL" target="_blank">
-                    <i class="fab fa-facebook" id="bottom-icon"></i>
-                </a>
-            </div>
-
+          </div>
         </section>
 
-        <div id="bottom">&copy; 2023 Malshika Rajamanthri </div>
+        <div>
+          <br /><button id="b3">Curriculum Activities</button>
 
+          <div class="ulist1" id="curriculum">
+            <span class="sb1">Committee Member of Game of Code</span><br />
+            University of Kelaniya <br />
+            2023 <br /><br />
+
+            <span class="sb1">Member of WIE</span><br />
+            University of Kelaniya <br /><br />
+
+            <span class="sb1">Member of SESA</span><br />
+            University of Kelaniya <br /><br />
+
+            <span class="sb1">IEEE Member</span><br />
+            IEEE Sri Lanka Section <br />
+          </div>
+        </div>
+      </div>
+
+      <div id="projects">
+        <p id="para5">Projects</p>
+        <section id="project">
+
+            <div >
+                <h1>UI/UX Project</h1>
+                <div class="project1" id="projecta">
+                  <a
+                    href="https://www.behance.net/gallery/200841575/Seafood-Delivery"
+                    target="_blank"
+                  >
+                    <img src="seafood.png" alt="p4" width="250px" height="250px" />
+                    <h2>Seafood Delivery</h2>
+                    <p>
+                        A user-friendly UI design for a seafood delivery app, created using Figma.
+                    </p>
+                  </a>
+                </div>
+    
+                <div class="project1" id="projectb">
+                  <a
+                    href="https://www.behance.net/gallery/200843057/Cake-Shop"
+                    target="_blank"
+                  >
+                    <img src="cake.png" alt="p5" width="250px" height="250px" />
+                    <h2>Cake Shop</h2>
+                    <p>
+                        A beautifully designed cake shop website prototype created using Figma
+                    </p>
+                    <br /><br />
+                  </a>
+                </div>
+    
+                <div class="project1" id="projectc">
+                  <a href="https://www.behance.net/gallery/200844697/Project-manager" target="_blank">
+                    <img src="project.png" alt="p5" width="250px" height="250px" />
+                    <h2>Project Manager</h2>
+                    <p>
+                        A comprehensive project management tool prototype, designed using Figma.
+                    </p>
+                    <br /><br />
+                  </a>
+                </div>
+              </div>
+
+          <div >
+            <h1>Web Project</h1>
+            <div class="project1" id="projecta">
+              <a
+                href="https://github.com/Rajamanthri/To-Do-List"
+                target="_blank"
+              >
+                <img src="p4.png" alt="p4" width="250px" height="250px" />
+                <h2>To-Do List</h2>
+                <p>
+                  simple to-do list is a basic web application crafted with
+                  HTML, CSS, and JavaScript. It provides a straightforward way
+                  to jot down and manage tasks or reminders.
+                </p>
+              </a>
+            </div>
+
+            <div class="project1" id="projectb">
+              <a
+                href="https://github.com/Rajamanthri/Portfolio-1"
+                target="_blank"
+              >
+                <img src="p5.png" alt="p5" width="250px" height="250px" />
+                <h2>Portfolio</h2>
+                <p>
+                  Pure html css javascript languages has been used to create
+                  this portfolio website
+                </p>
+                <br /><br />
+              </a>
+            </div>
+
+            <div class="project1" id="projectc">
+              <a href="https://github.com/Rajamanthri/Click-Me" target="_blank">
+                <img src="click.png" alt="p5" width="250px" height="250px" />
+                <h2>Calculate clicking speed</h2>
+                <p>
+                  This engaging project challenges users to click on randomly
+                  generated shapes that appear on the screen.
+                </p>
+                <br /><br />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="contacts" id="contact">
+        <p id="para6">Contact Me</p>
+        <div class="icons">
+          <a href="mailto:mcrajamanthri@gmail.com">
+            <i class="fas fa-envelope" id="bottom-icon"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BnnCiYb7nRPSYolicqGhMwA%3D%3D"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin" id="bottom-icon"></i>
+          </a>
+
+          <a href="https://github.com/Rajamanthri" target="_blank">
+            <i class="fab fa-github" id="bottom-icon"></i>
+          </a>
+
+          <a href="https://medium.com/@mcrajamanthri50" target="_blank">
+            <i class="fab fa-medium" id="bottom-icon"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=61550247781005&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <i class="fab fa-facebook" id="bottom-icon"></i>
+          </a>
+        </div>
+      </section>
+
+      <div id="bottom">&copy; 2023 Malshika Rajamanthri</div>
     </div>
 
     <script src="index.js"></script>
-
-</body>
-
+  </body>
 </html>
